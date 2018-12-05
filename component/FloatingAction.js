@@ -295,7 +295,7 @@ class FloatingAction extends Component {
           activeOpacity={0.85}
           onPress={this.animateButton}
         >
-          <Animated.View style={[styles.buttonTextContainer, animatedViewStyle]}>
+          <Animated.View style={[styles.buttonTextContainer]}>
             {this.getIcon()}
           </Animated.View>
         </Touchable>
